@@ -1,49 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Khawar | Unity Game Developer</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Khawar | Unity Developer</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <nav>
-      <h1 class="logo">Khawar<span>Dev</span></h1>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <section class="hero">
-    <div class="hero-content">
-      <h2>Hello, I’m <span>Khawar</span></h2>
-      <p>Unity Developer specialized in Android, iOS, Metaverse, Multiplayer, Ads, and Analytics.</p>
-      <a href="#projects" class="btn">View My Projects</a>
+<!-- Header -->
+<header>
+  <nav>
+    <h1 class="logo">Khawar<span>Dev</span></h1>
+    <ul>
+      <li><a href="#hero" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="hero">
+  <div class="hero-content">
+    <h2>Hello, I’m <span>Khawar</span></h2>
+    <p>Unity Developer | Metaverse & Multiplayer Expert</p>
+    <a href="#projects" class="btn">View Projects</a>
+  </div>
+</section>
+
+<!-- About Snapshot -->
+<section id="about">
+  <div class="about-container">
+    <img src="assets/images/profile.jpg" alt="Khawar" class="about-img">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>I specialize in Unity game development for Android, iOS, and WebGL. Experienced with multiplayer APIs, metaverse projects, ad integration, and analytics. I focus on creating immersive, scalable, and engaging gameplay experiences.</p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="projects" class="projects">
-    <h2>My Projects</h2>
-    <div class="project-grid">
-      <a href="projects/project1.html" class="project-card"><img src="assets/images/project1.jpg" alt=""><h3>Project 1</h3></a>
-      <a href="projects/project2.html" class="project-card"><img src="assets/images/project2.jpg" alt=""><h3>Project 2</h3></a>
-      <a href="projects/project3.html" class="project-card"><img src="assets/images/project3.jpg" alt=""><h3>Project 3</h3></a>
-      <a href="projects/project4.html" class="project-card"><img src="assets/images/project4.jpg" alt=""><h3>Project 4</h3></a>
-      <a href="projects/project5.html" class="project-card"><img src="assets/images/project5.jpg" alt=""><h3>Project 5</h3></a>
-      <a href="projects/project6.html" class="project-card"><img src="assets/images/project6.jpg" alt=""><h3>Project 6</h3></a>
-      <a href="projects/project7.html" class="project-card"><img src="assets/images/project7.jpg" alt=""><h3>Project 7</h3></a>
-      <a href="projects/project8.html" class="project-card"><img src="assets/images/project8.jpg" alt=""><h3>Project 8</h3></a>
-      <a href="projects/project9.html" class="project-card"><img src="assets/images/project9.jpg" alt=""><h3>Project 9</h3></a>
-      <a href="projects/project10.html" class="project-card"><img src="assets/images/project10.jpg" alt=""><h3>Project 10</h3></a>
-    </div>
-  </section>
+<!-- Skills Section -->
+<section id="skills">
+  <h2>Skills & Technologies</h2>
+  <div class="skills-grid">
+    <div class="skill-card">Unity</div>
+    <div class="skill-card">C#</div>
+    <div class="skill-card">Photon Networking</div>
+    <div class="skill-card">Ads & Analytics</div>
+    <div class="skill-card">Metaverse</div>
+    <div class="skill-card">Multiplayer APIs</div>
+  </div>
+</section>
 
-  <footer>
-    <p>© 2025 Khawar | All Rights Reserved</p>
-  </footer>
+<!-- Projects Preview -->
+<section id="projects">
+  <h2>My Projects</h2>
+  <div class="project-grid">
+    <a href="projects/project1.html" class="project-card"><img src="assets/images/project1.jpg" alt=""><h3>Project 1</h3></a>
+    <a href="projects/project2.html" class="project-card"><img src="assets/images/project2.jpg" alt=""><h3>Project 2</h3></a>
+    <a href="projects/project3.html" class="project-card"><img src="assets/images/project3.jpg" alt=""><h3>Project 3</h3></a>
+    <a href="projects/project4.html" class="project-card"><img src="assets/images/project4.jpg" alt=""><h3>Project 4</h3></a>
+    <a href="projects/project5.html" class="project-card"><img src="assets/images/project5.jpg" alt=""><h3>Project 5</h3></a>
+    <a href="projects/project6.html" class="project-card"><img src="assets/images/project6.jpg" alt=""><h3>Project 6</h3></a>
+  </div>
+</section>
+
+<!-- Contact / CTA -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Let's build something amazing together!</p>
+  <a href="contact.html" class="btn">Contact Me</a>
+  <div class="social-links">
+    <a href="https://github.com/khawar-mahmood" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/khawar-mahmood" target="_blank">LinkedIn</a>
+    <a href="mailto:youremail@example.com">Email</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 Khawar | All Rights Reserved</p>
+</footer>
+
 </body>
 </html>
