@@ -3,74 +3,51 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Khawar | Unity Developer</title>
+<title>Khawar Mahmood | Unity Developer</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- Hero Section -->
 <header>
   <h1>Khawar Mahmood</h1>
   <p>Unity Developer | Android, iOS & Metaverse | Multiplayer & Analytics</p>
 </header>
 
-<section id="android" class="projects-section fade-in">
-  <h2>Android Projects</h2>
+<!-- Android & iOS Projects Section -->
+<section id="mobile-projects" class="projects-section fade-in">
+  <h2>Android & iOS Projects</h2>
   <div class="projects-grid">
-    <div class="project-card" onclick="openProject('project1')">
-      <img src="assets/images/project1-thumb.jpg" alt="Project 1">
-      <h3>Project 1</h3>
-    </div>
-    <div class="project-card" onclick="openProject('project2')">
-      <img src="assets/images/project2-thumb.jpg" alt="Project 2">
-      <h3>Project 2</h3>
-    </div>
+    <div class="project-card"><a href="projects/project1.html"><img src="assets/images/project1-thumb.jpg"><h3>Project 1</h3></a></div>
+    <div class="project-card"><a href="projects/project2.html"><img src="assets/images/project2-thumb.jpg"><h3>Project 2</h3></a></div>
+    <div class="project-card"><a href="projects/project3.html"><img src="assets/images/project3-thumb.jpg"><h3>Project 3</h3></a></div>
+    <div class="project-card"><a href="projects/project4.html"><img src="assets/images/project4-thumb.jpg"><h3>Project 4</h3></a></div>
+    <div class="project-card"><a href="projects/project5.html"><img src="assets/images/project5-thumb.jpg"><h3>Project 5</h3></a></div>
+    <div class="project-card"><a href="projects/project6.html"><img src="assets/images/project6-thumb.jpg"><h3>Project 6</h3></a></div>
+    <div class="project-card"><a href="projects/project7.html"><img src="assets/images/project7-thumb.jpg"><h3>Project 7</h3></a></div>
+    <div class="project-card"><a href="projects/project8.html"><img src="assets/images/project8-thumb.jpg"><h3>Project 8</h3></a></div>
   </div>
 </section>
 
-<section id="ios" class="projects-section fade-in">
-  <h2>iOS Projects</h2>
-  <div class="projects-grid">
-    <div class="project-card" onclick="openProject('project3')">
-      <img src="assets/images/project3-thumb.jpg" alt="Project 3">
-      <h3>Project 3</h3>
-    </div>
-    <div class="project-card" onclick="openProject('project4')">
-      <img src="assets/images/project4-thumb.jpg" alt="Project 4">
-      <h3>Project 4</h3>
-    </div>
-  </div>
-</section>
-
+<!-- Metaverse Projects Section -->
 <section id="metaverse" class="projects-section fade-in">
   <h2>Metaverse Projects</h2>
   <div class="projects-grid">
-    <div class="project-card" onclick="openProject('project5')">
-      <img src="assets/images/project5-thumb.jpg" alt="Project 5">
-      <h3>Project 5</h3>
-    </div>
-    <div class="project-card" onclick="openProject('project6')">
-      <img src="assets/images/project6-thumb.jpg" alt="Project 6">
-      <h3>Project 6</h3>
-    </div>
+    <div class="project-card"><a href="projects/project9.html"><img src="assets/images/project9-thumb.jpg"><h3>Project 9</h3></a></div>
+    <div class="project-card"><a href="projects/project10.html"><img src="assets/images/project10-thumb.jpg"><h3>Project 10</h3></a></div>
   </div>
 </section>
 
+<!-- Journey Section -->
 <section id="journey" class="fade-in">
   <h2>My Journey</h2>
-  <p>I started my career 3.5 years ago as a Unity developer, building mobile games and exploring multiplayer and metaverse experiences. My passion is creating immersive games and connecting players worldwide.</p>
+  <p>I started my career 3.5 years ago as a Unity developer, creating mobile games, multiplayer experiences, and immersive metaverse projects. Passionate about building high-performance, engaging, and scalable games connecting players worldwide.</p>
 </section>
 
-<!-- Project Modal -->
-<div id="projectModal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeProject()">&times;</span>
-    <img id="projectImage" src="" alt="Project Feature Image">
-    <video id="projectVideo" controls>
-      <source src="" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <div id="projectInfo"></div>
-  </div>
+<!-- Footer Links -->
+<div style="text-align:center; margin:40px 0;">
+  <a href="about.html" class="btn">About Me</a>
+  <a href="contact.html" class="btn">Contact Me</a>
 </div>
 
 <script src="script.js"></script>
