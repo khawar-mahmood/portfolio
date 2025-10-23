@@ -174,3 +174,16 @@ h2 {
     height: 200px;
   }
 }
+.project-thumbnail {
+  width: 480px;
+  height: 270px;
+  object-fit: cover;   /* Crop/fit image nicely */
+  border-radius: 10px;
+  margin: 10px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.project-thumbnail:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
